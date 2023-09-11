@@ -21,7 +21,7 @@ public class Conn {
             // anymore apparently...
             // Create connection
             // By default we are running mysql in local host with port number 3306
-            c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root", "Pokemon@123");
+            c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", <localhost username>, <mysql password>);
             s = c.createStatement();
         } catch (Exception e) {
             System.out.println(e);
